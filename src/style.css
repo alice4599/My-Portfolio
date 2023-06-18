@@ -28,6 +28,15 @@ h1 {
     line-height: 36px;
 }
 
+.myTitle ul {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navbar {
+    padding: 20px 120px;
+}
+
 i {
 
     color: blue;
@@ -78,6 +87,12 @@ p {
     padding: 120px 60px;
 }
 
+.nav-item {
+    font-family: var(--default-font-family);
+
+
+}
+
 @media (max-width: 960px) {
     .descriptionYogurt {
         padding: 0;
@@ -86,6 +101,14 @@ p {
 
     .myTitle {
         padding: 80px 20px;
+    }
+
+    .myTitle p {
+        font-size: 18px;
+    }
+
+    .navbar {
+        padding: 0;
     }
 
     h1 {
