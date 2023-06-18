@@ -99,6 +99,15 @@ footer {
 
 }
 
+.d-flex {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #000000;
+    padding: 81px 0 41px 0;
+}
+
 .fa {
     border-radius: 50px;
     font-size: 13px;
@@ -121,6 +130,43 @@ footer {
 .fa-instagram {
     background-color: #eeedf7;
     color: #6c63ff;
+}
+
+.myBottom {
+    background-color: #F9F7FE;
+    border-radius: 20px;
+}
+
+.myBottom h1 {
+    font-size: 48px;
+    padding: 0 119px;
+}
+
+.myBottom p {
+    font-size: 18px;
+    padding: 0 0 0 119px;
+}
+
+
+
+.bottomLink {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.bottomLink a {
+    background: var(--branding-color);
+    margin: 20px;
+    border-radius: 4px;
+    color: white;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.btn-light:hover {
+    background: var(--branding-color);
 }
 
 
