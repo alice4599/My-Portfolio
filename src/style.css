@@ -169,21 +169,21 @@ footer {
     background: var(--branding-color);
 }
 
-.aboutPage {
+.allPages {
     padding: 160px 20px;
 }
 
-.aboutPageContent {
+.allPagesContent {
     margin: 30px;
 }
 
-.aboutPage h1 {
+.allPages h1 {
     font-size: 64px;
     font-family: var(--heading-font-family);
     line-height: 80px;
 }
 
-.aboutPage h2 {
+.allPages h2 {
     font-family: var(--default-font-family);
     font-size: 18px;
     font-style: normal;
@@ -191,7 +191,20 @@ footer {
     line-height: 27px;
 }
 
-.aboutPage p {
+.allPagesContent h3 {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 20px 0 0;
+}
+
+.allPagesContent p {
+    font-family: var(--default-font-family);
+    font-size: 14px;
+}
+
+.allPages p {
     font-family: var(--default-font-family);
     font-size: 16px;
     color: #272142;
@@ -201,7 +214,7 @@ footer {
 
 
 .mePic {
-    
+
     border-radius: 15px;
 }
 
@@ -220,7 +233,7 @@ footer {
         font-size: 18px;
     }
 
-    .aboutPage {
+    .allPages {
         text-align: center;
         padding: 0;
     }
