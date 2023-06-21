@@ -41,6 +41,12 @@ small {
     text-align: center;
 }
 
+.myTitle {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+}
+
 .myTitle h2 {
     font-family: var(--default-font-family);
     font-weight: bold;
@@ -82,11 +88,7 @@ small {
 
 }
 
-.myTitle {
-    background: var(--secondary-color);
-    text-align: center;
-    padding: 160px 20px;
-}
+
 
 .btn-branding-outline {
     color: var(--branding-color);
@@ -189,7 +191,7 @@ small {
 }
 
 .allPages {
-    padding: 160px 20px;
+    padding: 60px 20px;
 
 }
 
@@ -250,9 +252,7 @@ small {
         text-align: center;
     }
 
-    .myTitle {
-        padding: 80px 20px;
-    }
+
 
     .myTitle p {
         font-size: 18px;
