@@ -31,6 +31,7 @@ p {
 
 footer {
     text-align: center;
+
 }
 
 small {
@@ -106,13 +107,19 @@ small {
 
 }
 
-.d-flex {
+.emailLink {
     font-family: var(--default-font-family);
     font-size: 24px;
     line-height: 36px;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: #000000;
     padding: 81px 0 41px 0;
+}
+
+.emailLink:hover {
+    color: var(--branding-color);
 }
 
 .fa {
@@ -122,6 +129,11 @@ small {
     padding: 10px;
     text-align: center;
     text-decoration: none;
+}
+
+.fa:hover {
+    color: white;
+    background-color: var(--branding-color);
 }
 
 .fa-facebook {
