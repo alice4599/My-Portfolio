@@ -102,11 +102,13 @@ small {
 .descriptionYogurt {
     padding: 120px 60px;
 }
+ul {
+    float: right;
+    
+}
 
 .nav-item {
     font-family: var(--default-font-family);
-
-
 }
 
 .emailLink {
@@ -264,8 +266,9 @@ small {
     }
 
 
-    .navbar {
+    .navigation {
         padding: 0;
+        
     }
 
     h1 {
