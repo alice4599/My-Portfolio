@@ -102,9 +102,10 @@ small {
 .descriptionYogurt {
     padding: 120px 60px;
 }
+
 ul {
     float: right;
-    
+
 }
 
 .nav-item {
@@ -266,9 +267,9 @@ ul {
     }
 
 
-    .navigation {
+    .navbar {
         padding: 0;
-        
+
     }
 
     h1 {
