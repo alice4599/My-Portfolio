@@ -23,6 +23,11 @@ h2 {
     font-size: 64px;
 }
 
+h4 {
+    font-size: 48px;
+    font-family: var(--heading-font-family);
+}
+
 p {
     font-size: 16px;
     font-weight: normal;
@@ -44,7 +49,7 @@ small {
 .myTitle {
     background: var(--secondary-color);
     text-align: center;
-    padding: 80px 20px;
+    padding: 120px 20px;
 }
 
 .myTitle h2 {
@@ -67,11 +72,11 @@ small {
     line-height: 24px;
 }
 
-.navbar {
-    padding: 20px 120px;
+.contactButton {
+    font-size: 58px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
-
-
 
 .btn-info {
     background: var(--branding-color);
@@ -88,8 +93,6 @@ small {
 
 }
 
-
-
 .btn-branding-outline {
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
@@ -99,17 +102,42 @@ small {
     padding: 15px 30px;
 }
 
-.descriptionYogurt {
+.descriptionAll {
     padding: 120px 60px;
 }
 
-ul {
-    float: right;
-
+.logo {
+    max-height: 40px;
 }
 
-.nav-item {
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+
+
+nav a {
     font-family: var(--default-font-family);
+    text-decoration: none;
+    color: #272142;
+    transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: #6C63FF;
 }
 
 .emailLink {
@@ -159,34 +187,18 @@ ul {
 .myBottom {
     background-color: #F9F7FE;
     border-radius: 20px;
-}
+    padding: 30px 120px;
 
-.myBottom h1 {
-    font-size: 48px;
-    padding: 0 119px;
 }
 
 .myBottom p {
     font-size: 18px;
-    padding: 0 0 0 119px;
+    margin: 0px 40px;
+
 }
 
-
-
-.bottomLink {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-}
-
-.bottomLink a {
-    background: var(--branding-color);
-    margin: 20px;
-    border-radius: 4px;
-    color: white;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
+.myBottom a {
+    margin-top: 20px;
 }
 
 .btn-light:hover {
@@ -249,27 +261,25 @@ ul {
 }
 
 
-@media (max-width: 960px) {
-    .descriptionYogurt {
+@media (max-width: 900px) {
+    .descriptionAll {
         padding: 0;
         text-align: center;
     }
 
-
+    .myTitle {
+        padding: 60px 20px;
+    }
 
     .myTitle p {
         font-size: 18px;
+        padding: 60px 20px;
+        margin: 0;
     }
 
     .allPages {
         text-align: center;
         padding: 0;
-    }
-
-
-    .navbar {
-        padding: 0;
-        overflow-x: hidden;
     }
 
     h1 {
