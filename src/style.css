@@ -262,18 +262,25 @@ nav li.active a {
 
 
 @media (max-width: 900px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
     .descriptionAll {
         padding: 0;
         text-align: center;
     }
 
-    .myTitle {
-        padding: 60px 20px;
+    .allPagesContent h1 {
+        font-size: 45px;
     }
 
     .myTitle p {
         font-size: 18px;
-        padding: 60px 20px;
         margin: 0;
     }
 
@@ -282,11 +289,10 @@ nav li.active a {
         padding: 0;
     }
 
-    h1 {
-        font-size: 60px;
+    .contactButton {
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
     }
 
-    h2 {
-        font-size: 44px;
-    }
 }
