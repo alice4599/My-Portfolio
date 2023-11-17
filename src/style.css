@@ -73,6 +73,7 @@ small {
 }
 
 .contactButton {
+    text-align: center;
     font-size: 58px;
     margin-top: 70px;
     margin-bottom: 40px;
@@ -107,26 +108,13 @@ small {
 }
 
 .logo {
-    max-height: 40px;
+    max-height: 80px;
+    border-radius: 30px;
 }
 
 nav {
     padding: 20px 0;
 }
-
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-}
-
-
 
 nav a {
     font-family: var(--default-font-family);
@@ -169,17 +157,7 @@ nav li.active a {
     background-color: var(--branding-color);
 }
 
-.fa-facebook {
-    background-color: #eeedf7;
-    color: #6c63ff;
-}
-
-.fa-twitter {
-    background-color: #eeedf7;
-    color: #6c63ff;
-}
-
-.fa-instagram {
+.fa-linkedin {
     background-color: #eeedf7;
     color: #6c63ff;
 }
